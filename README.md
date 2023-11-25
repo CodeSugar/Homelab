@@ -4,7 +4,7 @@
 
 This repository serves as a central hub for tracking the implementation of various ideas for my personal homelab. It is a space designed to document the evolution, configuration, and enhancement of my homelab infrastructure.
 
-## Current Ideas
+## Backlog
 
 Several projects are either in the pipeline or currently being implemented, including:
 
@@ -15,6 +15,13 @@ Several projects are either in the pipeline or currently being implemented, incl
 - **LDAP Server**: Centralizing authentication and authorization for various services.
 - **Prometheus Speed Test Script**: Transitioning the speed test tracker to a script that leverages Prometheus for monitoring.
 - *...and more.*
+
+## Current WIP
+
+- Changing OS to Flatcar to make the HomeServer IaC 
+    - Test how to work with Butane configuration ✅
+    - Test in Proxmox VM ✅
+    - Investigate how to make my Docker containers use a NAS or find a way to make my OS stateless/diskless (Should I use Kubernetes? Maybe) WIP
 
 ## Current Implementation
 
